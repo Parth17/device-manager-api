@@ -43,6 +43,7 @@ Run: `docker run -p 8080:8080 -e SPRING_DATASOURCE_URL=jdbc:postgresql://172.17.
 ## Tests
 Run: `mvn test` (covers service and controller layers)
 
-## Notes
+## Notes and Improvement 
 - States: AVAILABLE, IN_USE, INACTIVE
-- For production, secure DB credentialssz
+- For production, secure DB credentials need to implement 
+- Spring Security can also be added for Authorization and Authorization
